@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.mr-body {
+
+}
+
+.mr-header {
+	height: 10vh;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.mr-logo {
+	width: 20%;	
+	height: 80%;
+	margin-left: 5px;
+}
+
+.mr-ueberschrift {
+	width: 60%;
+	height: 80%;
+	margin-left: 5px;
+}
+
+.mr-login-info {
+	width: 20%;
+	height: 80%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.mr-credits {
+	margin-top: 1vh;
+	height: 39vh;
+
+}
+
+.mr-gewicht {
+	margin-top: 1vh;
+	height: 39vh;
+
+}
+.mr-footer {
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	height: 7vh;
+	
+}
