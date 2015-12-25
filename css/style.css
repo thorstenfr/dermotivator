@@ -34,12 +34,6 @@
 	padding-right: 5px;
 }
 
-.row {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-align-items: center;
-	align-items: center;
-}
 
 
 .row:after {
@@ -53,30 +47,26 @@
 }
 
 .mr-header {
-	height: 10vh;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-align-items: center;
-	align-items: center;
+	height: 10vw;	
 }
 
-.mr-logo {
-	width: 20%;	
-	height: 80%;
-	margin-left: 5px;
+.mr-logo {	
+	
+	margin-top: 5px;
 }
 
-.mr-ueberschrift {
-	width: 60%;
-	height: 80%;
-	margin-left: 5px;
+.mr-h1 {
+	font-size: 5vw;
+	text-align: center;    	
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
 }
 
 .mr-login-info {
-	width: 20%;
-	height: 80%;
-	margin-right: 5px;
-	margin-left: 5px;
+	font-size: 2.5vw;
+	line-height: 50%;	
+	
 }
 
 .mr-credits {
