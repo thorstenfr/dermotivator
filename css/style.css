@@ -18,11 +18,13 @@
 
 
 [class*="col-"] {
-    float: left;
+    float: left;    
     padding-left: 2vw;       
     padding-right: 2vw;
     padding-top: 0vh;
-    padding-bottom: 0vh;
+    padding-bottom: 0vh;  
+    
+
     
 }
 .right {
@@ -31,6 +33,14 @@
 	padding-bottom: 1px;
 	padding-right: 5px;
 }
+
+.row {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
 
 .row:after {
     content: "";
@@ -85,9 +95,24 @@ p.solid {border-style: solid;}
 p.dotted {border-style: dotted;}
 p.dashed {border-style: dashed;}
 
-.row p {
+.mr-beschreibungstext, .mr-ausgabe-1 {
 	font-size: 3vh;
+	margin: 1vh;	
+}
 
+.mr-ausgabe-1 {
+	border-style: dotted;
+	text-align: right;
+	padding-right: 1vw;
+
+
+}
+input.mr-ausgabe-1 {	
+	width:100%;
+	margin-right: 0px;
+	margin-left: 0px;
+
+	
 }
 
 
@@ -98,70 +123,27 @@ p.dashed {border-style: dashed;}
 	
 }
 
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 10px 1px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 3vh;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    width: 100%;
+.mr-button {
+	width: 100%;
+	height: 8vh;	 
+	margin-top: 2vh;
+}
+.mr-text1 {font-size: 5vh;}
+.mr-text2 {font-size: 4vh;}
+.mr-text3 {font-size: 3vh;}
+.mr-text4 {font-size: 2vh;}
+.mr-text5 {font-size: 1vh;}
+
+
+
+
+.mr-beispiele {
+	font-size: 0.8em;
 }
 
-.button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.button2 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
-}
-
-.button2:hover {
-    background-color: #008CBA;
-    color: white;
-}
-
-.button3 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #f44336;
-}
-
-.button3:hover {
-    background-color: #f44336;
-    color: white;
-}
-
-.button4 {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
-}
-
-.button4:hover {background-color: #e7e7e7;}
-
-.button5 {
-    background-color: white;
-    color: black;
-    border: 2px solid #555555;
-}
-
-.button5:hover {
-    background-color: #555555;
-    color: white;
+.mr-beispiele-textarea {
+	margin-top: 10px;
+	width: 100%;
+	height: 7vh;
+	line-height:50%;
 }

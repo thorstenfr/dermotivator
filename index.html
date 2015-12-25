@@ -24,39 +24,69 @@
 			<section class="mr-credits bg-color-primary-1">
 				<div class="row">
 					<div class="col-6">
-						<p>Aktuelle Woche</p>
+						<p class="mr-beschreibungstext">Aktuelle Woche</p>
 					</div>
 					<div class="col-6">
-						<p class="dotted right">-54</p>
+						<p class="mr-ausgabe-1">-54</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-6">
-						<p>Aktuelle Monat</p>
+						<p class="mr-beschreibungstext">Aktuelle Monat</p>
 					</div>
 					<div class="col-6">
-						<p class="dotted right">-</p>
+						<p class="mr-ausgabe-1">-</p>
 					</div>
 				</div>								
 				<div class="row">
 					<div class="col-6">
-						<p>Überhaupt</p>
+						<p  class="mr-beschreibungstext">Überhaupt</p>
 					</div>
 					<div class="col-6">
-						<p class="dotted right">-</p>
+						<p class="mr-ausgabe-1">-</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-6">
-						<button class="button button1" type="button" onclick="alert('Hello World!')">+</button>
+						<button class="mr-button  mr-text1 bg-color-primary-2" type="button" >+</button>
 					</div>
 					<div class="col-6">
-						<button class="button button3" type="button" onclick="alert('Hello World!')">-</button>
+						<button class="mr-button  mr-text1 bg-color-primary-2" type="button" >-</button>
 					</div>
-
-				</div>			
+				</div>					
+				<div class="row">
+					<div class="col-6">
+						<textarea class="mr-beispiele-textarea">Bsp.:
+							- 500m Schwimmen
+							- 1000m Laufen								
+						</textarea>
+					</div>
+					<div class="col-6">
+						<textarea class="mr-beispiele-textarea">Bsp.:
+							- 500ml Bier							
+						</textarea>
+					</div>
+				</div>
 			</section>
 			<section class="mr-gewicht bg-color-primary-1">
+				<div class="row">
+					<div class="col-6">
+						<p class="mr-beschreibungstext">Aktuelles Gewicht</p>
+					</div>
+					<div class="col-6">						
+						 <input class="mr-ausgabe-1"  type="number" name="gewicht" min="1" max="199" step="0.1" value="86.4">						 
+					</div>
+				</div>								
+				<div class="row">
+					<div class="col-12">
+						<h4 class="mr-h4">Gewichtsentwicklung</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<img src="img/Liniendiagramm1.jpg" width="100%" height="100vh">
+					</div>
+				</div>
 			</section>
 		</main>		
 		<footer class="mr-footer bg-color-primary-1">
